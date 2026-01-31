@@ -1,2 +1,3 @@
 # Web-Development-Journey
-This Repository contains all the files I created in my webDevelopment journey
+This Repository contains all the files I created in my webDevelopment journey. So Now that i have understood how to use GitHub I am planning to document my Webdev journey here.
+Today was day 1 and I was ppretty mucj confident in what I did. It was basic HTML stuff and I am thinking of making projects along the way as I learn as I understood that watching tutorials endlessly is of no use. Cheers to a good start. On day 1 I created a sample website where I understood the basics of WebDev as I added images, hyperlinks, used several heading and paragraphs, chnaged colors and etc..
