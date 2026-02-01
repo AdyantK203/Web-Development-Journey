@@ -1,168 +1,130 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- This is used to make the webasite responsive on different devices. Like on -->
-    <!-- Phones and tablets. -->
-    <title>Basic Resume Project</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
-        line-height: 1.6;
-      }
-    </style>
-  </head>
-  <body>
-    <nav style="text-align: center;">
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <section
-      style="
-        text-align: center;
-        background-color: aliceblue;
-        border: 2px solid black;
-        padding: 10px;
-        text-decoration: underline;
-      "
-    >
-      <h1 style="font-size: 36px">John Doe</h1>
-      <p style="font-size: 15px">
-        Email:johndoe2003@gmail.<i class="fa fa-comment" aria-hidden="true"></i>
-        com | Phone: (123) 456-7890 | LinkedIn: linkedin.com/in/johndoe Job
-      </p>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic Resume Project</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a class="navElement" href="#education">Education</a>
+    <a class="navElement" href="#projects">Projects</a>
+    <a class="navElement" href="#experience">Experience</a>
+    <a class="navElement" href="#skills">Skills</a>
+    <a class="navElement" href="#contact">Contact</a>
+    <a class="navElement" href="#review">Review</a>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="profile">
+    <h1>John Doe</h1>
     <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis ex,
-      maiores voluptatibus nostrum <kbd> ctrl + S </kbd>aliquam beatae? Dicta
-      asperiores natus voluptates explicabo minus cupiditate accusamus quasi
-      praesentium nihil molestiae impedit, dolore ipsa nisi non itaque et
-      tempora modi autem placeat ea accusantium?
+      Email: johndoe2003@gmail.com |
+      Phone: (123) 456-7890 |
+      LinkedIn: linkedin.com/in/johndoe
     </p>
+  </header>
 
-    <article>
-      <h2 id="education">Educational Background:</h2>
-      <p>
-        <ul>
-        <li>
-            Bachelor of Science in Computer Science, <strong>IIT Dhanbad</strong>, 2020-2024
-        </li>
-        <li>
-            High School Diploma, ABC High School, 2018-2020
-        </li>
-        <li>
-            Secondary School Certificate, XYZ School, 2016-2018
-        </li>
+  <!-- INTRO -->
+  <section class="intro">
+    <p>
+      I am a Computer Science undergraduate with a strong interest in web
+      development and problem solving. I enjoy building clean, responsive
+      interfaces and continuously improving my technical skills.
+    </p>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2>Educational Background</h2>
+    <ul>
+      <li><strong>B.Tech in Computer Science</strong>, IIT Dhanbad (2020–2024)</li>
+      <li>Higher Secondary Education, ABC High School (2018–2020)</li>
+      <li>Secondary Education, XYZ School (2016–2018)</li>
     </ul>
-    </p>
-    </article>
+  </section>
 
-        <article>
-      <h2>Experience</h2>
-      <p>
-        <ul>
-            <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, rerum.
-            </li>
-            <li>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni perferendis ea libero.
-            </li>
-            <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, at?
-            </li>
-        </ul>
-    </article>
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>Built responsive web pages using HTML and CSS</li>
+      <li>Practiced JavaScript fundamentals and DOM manipulation</li>
+      <li>Worked on small academic and personal projects</li>
+    </ul>
+  </section>
 
-    <article>
-      <h2 id="projects">Projects</h2>
-      <p>
-        <ul>
-            <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, rerum.
-            </li>
-            <li>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni perferendis ea libero.
-            </li>
-            <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, at?
-            </li>
-        </ul>
-      </p>
-    </article>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Personal Resume Website using HTML & CSS</li>
+      <li>Basic Calculator using JavaScript</li>
+      <li>Student Management System (C++)</li>
+    </ul>
+  </section>
 
-    <article>
-      <h2>Skills</h2>
-      <p>
-        <ul>
-            <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, rerum.
-            </li>
-            <li>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni perferendis ea libero.
-            </li>
-            <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, at?
-            </li>
-        </ul>.
-      </p>
-    </article>
-    <article>
-      <h2>Achievements</h2>
-        <ul>
-            <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, rerum.
-            </li>
-            <li>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni perferendis ea libero.
-            </li>
-            <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, at?
-            </li>
-        </ul>
-    </article>
-    <label for="review">Please leave a review:</label>
-    <input type="text" name="review" id="review">
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>C++, Python</li>
+      <li>Basic Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section>
+    <h2>Achievements</h2>
+    <ul>
+      <li>Completed multiple academic projects successfully</li>
+      <li>Consistent performer in programming labs</li>
+      <li>Actively learning full-stack web development</li>
+    </ul>
+  </section>
+
+  <!-- REVIEW -->
+  <section id="review">
+    <h2>Leave a Review</h2>
+    <input type="text" placeholder="Your feedback">
+
+    <div class="rating">
+      <label><input type="radio" name="rating"> 1 Star</label>
+      <label><input type="radio" name="rating"> 2 Stars</label>
+      <label><input type="radio" name="rating"> 3 Stars</label>
+      <label><input type="radio" name="rating"> 4 Stars</label>
+      <label><input type="radio" name="rating"> 5 Stars</label>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+
     <form>
-        <div>
-        <label for="rating1">Please rate your experience:</label>
-        <input type="radio" name="rating" id="rating1" value="1">
-        <label for="rating1">1 Star</label>
-        <input type="radio" name="rating" id="rating2" value="2">
-        <label for="rating2">2 Stars</label>
-        <input type="radio" name="rating" id="rating3" value="3">
-        <label for="rating3">3 Stars</label>
-        <input type="radio" name="rating" id="rating4" value="4">
-        <label for="rating4">4 Stars</label>
-        <input type="radio" name="rating" id="rating5" value="5">
-        <label for="rating5">5 Stars</label>
-        </div>
+      <label>Name</label>
+      <input type="text" required>
+
+      <label>Email</label>
+      <input type="email" required>
+
+      <label>Message</label>
+      <textarea rows="4"></textarea>
+
+      <button type="submit">Submit</button>
     </form>
-    
-    <section id="contact">
-  <h2>Contact Me</h2>
+  </section>
 
-  <form>
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" required><br><br>
+  <!-- FOOTER -->
+  <footer>
+    <strong>— Thank you for visiting my resume page —</strong>
+  </footer>
 
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" required><br><br>
-
-    <label for="msg">Message:</label><br>
-    <textarea id="msg" rows="4"></textarea><br><br>
-
-    <button type="submit">Submit</button>
-    <input type="submit"> 
-    <!-- Two types of submit button -->
-  </form>
-</section>
-
-    <footer style="text-align: center; margin-top: 20px;">
-        <strong>
-        ------------------- Thank you for visiting my resume page -------------------
-    </footer>
-  </body>
+</body>
 </html>
